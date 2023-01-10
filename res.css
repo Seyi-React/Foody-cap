@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    
+}
+li {
+    list-style-type: none;
+}
+h1 {
+    font-size: 27px;
+    color: white;
+    margin-top: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    opacity: 1.0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-weight:normal;
+    font-size:37px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+}
+h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    opacity: 0.7;
+    
+
+}
+h4 {
+    word-spacing: 18px;
+    font-size: 17px;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: palegoldenrod;
+    opacity: 0.9;
+    text-shadow: 1px 1px 2px orangered;
+}
+button {
+    color:white;
+    width: 27%;
+    height: 40px;
+    background-color: orangered;
+    font-style: normal;
+    border: 2px solid black;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    font-size: 17px;
+}
+button:hover {
+    color: ghostwhite;
+
+}
+span {
+    color: orangered;
+}
+a {
+    
+    margin-right: 50px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    word-spacing: 10px;
+    color: white;
+    opacity: 0.7 ;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+   color: orangered;
+}
+
+.first{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.heading {
+    margin-left: 40px;
+    margin-top: 20px;
+    position: absolute;
+}
+.section{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 50px;
+}
+
+
+.nav {
+    background-image: url("images/restuarant.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 100%;
+}
+.last{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 450px;
+    background-color: none;
+    width:100%;
+}
